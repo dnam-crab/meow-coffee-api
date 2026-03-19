@@ -99,6 +99,7 @@ router.get("/me", async (req: Request, res: Response) => {
       id: u.id,
       email: u.email,
       // name: u.name ?? null
+      role: u.role,
     },
   });
 });
